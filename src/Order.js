@@ -48,13 +48,7 @@ function Order(){
                                                 mode:'', invoiceID:'',status:''});
 
 
-  const [menuOpen , setMenuOpen] = useState(Boolean(false));
-  const [anchorEl, setAnchorEl] = useState();
-  //const open = Boolean(anchorEl);
-
-  const [action , setAction] = useState("");
-
-
+ 
   const getAllOrders = async () => {
 
     console.log("Get Orders Method Called");
